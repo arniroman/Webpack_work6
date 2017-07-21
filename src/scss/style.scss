@@ -1,0 +1,25 @@
+
+$fontSize: 24px;
+
+.user__avatar {
+  width: 221px;
+  height: 228px;
+  border: 1px solid #222;
+  border-radius: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  font-size: $fontSize;
+  margin-bottom: 40px;
+
+}
+
+
+.user:nth-child(1n) .user__avatar {
+  background: url('../img/cake.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
